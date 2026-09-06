@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #f7f7fa;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.form label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+.form button {
+  margin-top: 8px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background: #93b4f0;
+  cursor: not-allowed;
+}
+
+.error {
+  margin-top: 12px;
+  padding: 12px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+section {
+  margin-top: 32px;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-card {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.activity-card .rank {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 4px;
+}
+
+.activity-card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.activity-card p {
+  font-size: 0.88rem;
+  color: #555;
+}
+
+.day-block {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+}
+
+.day-block h3 {
+  font-size: 1rem;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.day-block ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.day-block li {
+  font-size: 0.9rem;
+  padding-left: 12px;
+  border-left: 2px solid #e5e7eb;
+}
+
+.loading {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
